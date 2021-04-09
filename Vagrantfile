@@ -43,6 +43,6 @@ Vagrant.configure(2) do |config|
 
       config.vm.provision "shell", path: "./scripts/init.sh"
       config.vm.provision "shell", path: "./scripts/install_ansible.sh"
-	  end
+	  
 
 end
